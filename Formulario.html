@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="Formulario.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Formulario</h1>
+        <form id="Formulario" action="Formulario.php" method="POST" onsubmit="return validarFormulario(event)">
+            <div class="form-group">
+                <strong>Localidad:</strong>
+                <select id="localidad" name="localidad" required>
+                    <option value="" disabled selected>Seleccionar</option>
+                    <option value="Orbaneja del Castillo">Orbaneja del Castillo</option>
+                    <option value="Covarrubias">Covarrubias</option>
+                </select>
+            </div>
+            <div class="form-group">
+                 <strong>Nombre:</strong>
+                <input type="text" id="nombre" name="nombre">
+            </div>
+            <div class="form-group">
+                <strong>Email:</strong>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="form-group">
+                 <strong>Teléfono:</strong>
+                <input type="tel" id="telefono" name="telefono">
+            </div>
+            <div class="form-group">
+                 <strong>Comente su problema o petición por favor:</strong>
+                <input type="text" id="problema" name="problema">
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <script src="Formulario.js"></script>
+</body>
+</html>

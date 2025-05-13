@@ -1,0 +1,100 @@
+.imagenarriba {
+  background-image: url("Orbanejabanner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top:20px
+}
+h1{
+  text-align: center;
+  font-size: 40px;
+  color: #313030;
+  font-family: cursive;
+  margin: 0;
+  padding: 20px;
+  text-stroke: 1px black;
+  text-shadow: 2px 2px 4px rgb(255, 255, 255, 0.5)
+
+}
+ h2{
+  text-transform:uppercase;
+  text-align: center;
+  font-size: 25px;
+  color: #716f6f;
+  font-family: cursive;
+  margin: 0;
+  padding: 20px;
+  text-stroke: 1px black;
+  text-shadow: 2px 2px 4px rgb(255, 255, 255, 0.5)
+
+}
+body{
+  text-align: center;
+  background-color: #ffffff;
+  font-family: cursive;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  font-family:verdana;
+  background-color: #000000;
+  background-transparency: 0.5;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navbar a:hover {
+  color: #ddd;
+}
+.izquierda{
+  float: left;
+  width: 50%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.derecha{
+  float: right;
+  width: 50%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+p{
+  font-size:30px;
+}
+img{
+  border-radius:20%
+}
+.centro{
+  float: center;
+  width: 50%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior:smooth;
+}
