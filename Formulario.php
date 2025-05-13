@@ -13,6 +13,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     exit;
 }
 
-header('Location: hola.html');
+header('Location: Exito.html');
 exit;
 ?>
